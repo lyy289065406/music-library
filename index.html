@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="music-player">
+        <input type="text" id="search-box" placeholder="搜索歌曲...">
+        <button id="search-btn">搜索</button>
+        <audio id="audio" controls></audio>
+
+        <button id="createPlaylist">创建歌单</button>
+        <div id="playlistContainer"></div>  <!-- 歌单列表 -->
+        <div id="playlist"></div>   <!-- 播放列表 -->
+        
+        <button id="prev-btn">上一曲</button>
+        <button id="play-btn">播放/暂停</button>
+        <button id="next-btn">下一曲</button>
+        <button id="repeat-btn">循环</button>
+        <button id="shuffle-btn">随机播放</button>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
