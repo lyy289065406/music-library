@@ -1,0 +1,4 @@
+<Files *>
+Header set Access-Control-Allow-Origin "lyy289065406.github.io"
+</Files>
+
