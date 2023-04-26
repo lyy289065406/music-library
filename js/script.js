@@ -182,7 +182,7 @@ async function initPlayer() {
     for (const file of files) {
         const listItem = document.createElement('div');
         listItem.textContent = file;
-        listItem.dataset.path = "path/to/music/folder/${file}";
+        listItem.dataset.path = encodeURI("static/${file}");
         listItem.dataset.type = 'audio/mpeg';
         listItem.onclick = playSelectedSong;
         playlist.appendChild(listItem);
