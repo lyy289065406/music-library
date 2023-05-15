@@ -19,6 +19,7 @@ services:
       - ./css:/usr/share/nginx/html/css
       - ./js:/usr/share/nginx/html/js
       - ./static:/usr/share/nginx/html/static
+      - ./images:/usr/share/nginx/html/images
       - ./index.html:/usr/share/nginx/html/index.html
       - ./favicon.png:/usr/share/nginx/html/favicon.png
       - ./logs/nginx:/var/log/nginx
