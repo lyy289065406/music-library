@@ -14,7 +14,20 @@ var musicList = [
         cover: "",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
         creatorAvatar: "",      // 列表创建者头像
-        item: []
+        item: [
+            {
+                id: "111111",  // 音乐ID
+                name: "打上花火",  // 音乐名字
+                artist: "你的名字", // 艺术家名字
+                album: "你的名字",    // 专辑名字
+                source: "netease",     // 音乐来源
+                url_id: "436514312",  // 链接ID
+                pic_id: "2946691234868155",  // 封面ID
+                lyric_id: "436514312",  // 歌词ID
+                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
+                url: "static/动漫/你的名字 - 打上花火.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+            }
+        ]
     },
     // 预留列表：正在播放
     {
@@ -22,7 +35,20 @@ var musicList = [
         cover: "",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
         creatorAvatar: "",      // 列表创建者头像
-        item: []
+        item: [
+            {
+                id: "22222",  // 音乐ID
+                name: "打上花火",  // 音乐名字
+                artist: "你的名字", // 艺术家名字
+                album: "你的名字",    // 专辑名字
+                source: "netease",     // 音乐来源
+                url_id: "436514312",  // 链接ID
+                pic_id: "2946691234868155",  // 封面ID
+                lyric_id: "436514312",  // 歌词ID
+                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
+                url: "static/动漫/你的名字 - 打上花火.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+            }
+        ]
     },
     // 预留列表：播放历史
     {
@@ -30,7 +56,20 @@ var musicList = [
         cover: "images/history.png",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
         creatorAvatar: "",      // 列表创建者头像
-        item: []
+        item: [
+            {
+                id: "33333",  // 音乐ID
+                name: "打上花火",  // 音乐名字
+                artist: "你的名字", // 艺术家名字
+                album: "你的名字",    // 专辑名字
+                source: "netease",     // 音乐来源
+                url_id: "436514312",  // 链接ID
+                pic_id: "2946691234868155",  // 封面ID
+                lyric_id: "436514312",  // 歌词ID
+                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
+                url: "static/动漫/你的名字 - 打上花火.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+            }
+        ]
     },  
     // 以上三个系统预留列表请勿更改，否则可能导致程序无法正常运行！
     //*********************************************
@@ -75,7 +114,7 @@ var musicList = [
                 pic_id: "2946691234868155",  // 封面ID
                 lyric_id: "436514312",  // 歌词ID
                 pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
-                url: ""   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+                url: "static/动漫/你的名字 - 打上花火.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
             },
             // 下面演示插入各个平台的音乐。。。
             {

@@ -15,7 +15,7 @@ var mkPlayer = {
     mdotshine: false,   // 是否开启[移动端]播放进度条的小点闪动效果[不支持IE](true/false)
     volume: 0.6,        // 默认音量值(0~1之间)
     version: "v2.41",    // 播放器当前版本号(仅供调试)
-    debug: false   // 是否开启调试模式(true/false)
+    debug: true   // 是否开启调试模式(true/false)
 };
 
 
@@ -49,6 +49,7 @@ function pause() {
             musicList[1].item = musicList[rem.playlist].item; // 更新正在播放列表中音乐
             
             // 正在播放 列表项已发生变更，进行保存
+            console.log('save1')
             playerSavedata('playing', musicList[1].item);   // 保存正在播放列表
             
             listClick(0);
@@ -215,6 +216,7 @@ function listClick(no) {
         tmpid = rem.playid + 1;
         
         // 正在播放 列表项已发生变更，进行保存
+        console.log('save2')
         playerSavedata('playing', musicList[1].item);   // 保存正在播放列表
     } else {    // 普通列表
         // 与之前不是同一个列表了（在播放别的列表的歌曲）或者是首次播放
@@ -223,6 +225,7 @@ function listClick(no) {
             musicList[1].item = musicList[rem.playlist].item; // 更新正在播放列表中音乐
             
             // 正在播放 列表项已发生变更，进行保存
+            console.log('save3')
             playerSavedata('playing', musicList[1].item);   // 保存正在播放列表
             
             // 刷新正在播放的列表的动画
