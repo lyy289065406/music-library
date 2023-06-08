@@ -52,6 +52,7 @@ var musicList = [
     },
     // 预留列表：播放历史
     {
+        /* 可以手动维护这个歌单，然后再把它自动生成就好了，其他功能用到再调 */
         name: "播放历史",   // 播放列表名字
         cover: "images/history.png",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
