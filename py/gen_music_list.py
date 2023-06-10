@@ -30,7 +30,7 @@ def main() :
     # 创建歌曲列表
     musiclist = MusicList(
         name="自定义列表",
-        cover="/images/album.jpg",
+        cover="/images/album.png",
         creatorName="EXP",
         creatorAvatar="EXP"
     )
