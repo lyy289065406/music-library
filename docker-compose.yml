@@ -21,7 +21,6 @@ services:
       - ./plugns:/usr/share/nginx/html/plugns
       - ./static:/usr/share/nginx/html/static
       - ./images:/usr/share/nginx/html/images
-      - ./api.php:/usr/share/nginx/html/api.php
       - ./index.html:/usr/share/nginx/html/index.html
       - ./favicon.png:/usr/share/nginx/html/favicon.png
       - ./logs/nginx:/var/log/nginx

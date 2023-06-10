@@ -1,9 +1,9 @@
 # PowerShell
 # ------------------------
-# å‘å¸ƒé•œåƒ
+# ·¢²¼¾µÏñ
 # bin/deploy.ps1 [-n NAMESPACE] [-v VERSION]
-#   -n docker hub çš„å‘½åç©ºé—´
-#   -v é•œåƒç‰ˆæœ¬å·
+#   -n docker hub µÄÃüÃû¿Õ¼ä
+#   -v ¾µÏñ°æ±¾ºÅ
 # ------------------------
 
 param([string]$v="", [string]$n="")
