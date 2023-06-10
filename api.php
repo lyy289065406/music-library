@@ -1,6 +1,6 @@
 <?php
 /**************************************************
- * OnlineMusicPlayer v2.4
+ * GithubMusicPlayer v2.4
  * 后台音乐数据抓取模块
  *************************************************/
 
@@ -138,7 +138,7 @@ switch($types)   // 根据请求的 Api，执行相应操作
         break;
         
     default:
-        echo '<!doctype html><html><head><meta charset="utf-8"><title>信息</title><style>* {font-family: microsoft yahei}</style></head><body> <h2>OnlineMusicPlayer</h2><br>';
+        echo '<!doctype html><html><head><meta charset="utf-8"><title>信息</title><style>* {font-family: microsoft yahei}</style></head><body> <h2>GithubMusicPlayer</h2><br>';
         if(!defined('DEBUG') || DEBUG !== true) {   // 非调试模式
             echo '<p>Api 调试模式已关闭</p>';
         } else {

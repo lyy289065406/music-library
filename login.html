@@ -88,6 +88,7 @@
             // Hash the password entered by the user
             const passwordHash = await hashPassword(pass);
 
+            console.log(passwordHash);
             if (credentials && user == credentials.username && passwordHash == credentials.passwordHash) {
                 alert("Access granted.");
                 modal.style.display = "none";
