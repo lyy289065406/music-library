@@ -32,7 +32,7 @@ def main() :
         name="自定义列表",
         cover="/images/album.png",
         creatorName="EXP",
-        creatorAvatar="EXP"
+        creatorAvatar="/images/avatar.jpg"
     )
 
     # 遍历所有文件
