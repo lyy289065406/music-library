@@ -9,7 +9,7 @@ window.onload = function (event) {
 
 async function getCredentials() {
     try {
-        const response = await fetch("/static/pwd");
+        const response = await fetch("static/pwd");
         const text = await response.text();
         const [username, passwordHash] = text.split(":");
 

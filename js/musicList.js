@@ -56,11 +56,12 @@ var musicList = [
                 artist: "流浪的蛙蛙", // 艺术家名字
                 album: "..",    // 专辑名字
                 source: "local",     // 音乐来源
-                url_id: "436514312",  // 链接ID
-                pic_id: "2946691234868155",  // 封面ID
-                lyric_id: "436514312",  // 歌词ID
-                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
-                url: "static/动漫/斗破苍穹/流浪的蛙蛙 - 从别后.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+                url_id: "1",  // 链接ID
+                pic_id: "1",  // 封面ID
+                lyric_id: "1",  // 歌词ID
+                pic: "static/动漫/斗破苍穹/流浪的蛙蛙 - 从别后.jpg",    // 专辑图片
+                url: "static/动漫/斗破苍穹/流浪的蛙蛙 - 从别后.mp3",
+                lyric: "static/动漫/斗破苍穹/流浪的蛙蛙 - 从别后.lrc"
             },
             {
                 id: "2",  // 音乐ID
@@ -68,11 +69,12 @@ var musicList = [
                 artist: "你的名字", // 艺术家名字
                 album: "你的名字",    // 专辑名字
                 source: "local",     // 音乐来源
-                url_id: "436514312",  // 链接ID
-                pic_id: "2946691234868155",  // 封面ID
-                lyric_id: "436514312",  // 歌词ID
-                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
-                url: "static/动漫/你的名字 - 打上花火.mp3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+                url_id: "2",  // 链接ID
+                pic_id: "2",  // 封面ID
+                lyric_id: "2",  // 歌词ID
+                pic: "static/动漫/你的名字 - 打上花火.jpg",    // 专辑图片
+                url: "static/动漫/你的名字 - 打上花火.mp3",
+                lyric: "static/动漫/你的名字 - 打上花火.lrc"
             },
             {
                 id: "3",  // 音乐ID
@@ -80,11 +82,12 @@ var musicList = [
                 artist: "Apocalyptica 启示录乐队", // 艺术家名字
                 album: "bilibili晚会2022最美的夜",    // 专辑名字
                 source: "local",     // 音乐来源
-                url_id: "436514312",  // 链接ID
-                pic_id: "2946691234868155",  // 封面ID
-                lyric_id: "436514312",  // 歌词ID
-                pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
-                url: "static/综艺/bilibili晚会2022最美的夜 - Apocalyptica 启示录乐队 - 没有人能在我的BGM里打败我.MP3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
+                url_id: "3",  // 链接ID
+                pic_id: "3",  // 封面ID
+                lyric_id: "3",  // 歌词ID
+                pic: "static/综艺/bilibili晚会2022最美的夜 - Apocalyptica 启示录乐队 - 没有人能在我的BGM里打败我.jpg",    // 专辑图片
+                url: "static/综艺/bilibili晚会2022最美的夜 - Apocalyptica 启示录乐队 - 没有人能在我的BGM里打败我.MP3",
+                lyric: "static/综艺/bilibili晚会2022最美的夜 - Apocalyptica 启示录乐队 - 没有人能在我的BGM里打败我.lrc"
             }  // 列表中最后一首歌大括号后面不要加逗号
         */
         ]

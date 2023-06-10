@@ -2,9 +2,9 @@
     {
         "id": "9527",
         "name": "自定义列表",
-        "cover": "/images/album.png",
+        "cover": "images/album.png",
         "creatorName": "EXP",
-        "creatorAvatar": "/images/avatar.jpg",
+        "creatorAvatar": "images/avatar.jpg",
         "item": [
             {
                 "id": "30748e284666600ed36a43767a777ea7",

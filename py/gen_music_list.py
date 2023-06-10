@@ -30,9 +30,9 @@ def main() :
     musiclist = MusicList(
         id="9527",
         name="自定义列表",
-        cover="/images/album.png",
+        cover="images/album.png",
         creatorName="EXP",
-        creatorAvatar="/images/avatar.jpg"
+        creatorAvatar="images/avatar.jpg"
     )
 
     # 遍历所有文件
