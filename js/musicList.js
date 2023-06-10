@@ -45,7 +45,7 @@ var musicList = [
     {
         id: "9527", 
         name: "自定义列表",   // 播放列表名字
-        cover: "/images/album.png", // 播放列表封面图像
+        cover: "images/album.png", // 播放列表封面图像
         creatorName: "EXP",        // 列表创建者名字(暂时没用到，可空)
         creatorAvatar: "EXP",      // 列表创建者头像(暂时没用到，可空)
         item: [                 // 这里面放歌曲（这里不要手动添加，否则不会自动加载 music_list.json）

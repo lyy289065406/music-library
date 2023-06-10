@@ -215,7 +215,7 @@ function loadLocalMusicList(lid, id, callback) {
 
     $.ajax({
         type: "GET", 
-        url: "/static/music_list.json", 
+        url: "static/music_list.json", 
         dataType : "json",
         complete: function(XMLHttpRequest, textStatus) {
             musicList[id].isloading = false;    // 列表已经加载完了
