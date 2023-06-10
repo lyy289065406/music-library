@@ -12,10 +12,17 @@ function lyricTip(str) {
 
 // 歌曲加载完后的回调函数
 // 参数：歌词源文件
-function lyricCallback(str, id) {
+async function lyricCallback(str, id) {
     if(id !== musicList[rem.playlist].item[rem.playid].id) return;  // 返回的歌词不是当前这首歌的，跳过
     
-    rem.lyric = parseLyric(str);    // 解析获取到的歌词
+    // 解析获取到的歌词文件路径
+    try {
+        rem.lyric = await parseLocalLyric(str);   
+    } catch (error) {
+        console.error(error);
+        return false;
+    }
+    // rem.lyric = parseLyric(str);    // 解析获取到的歌词
     
     if(rem.lyric === '') {
         lyricTip('没有歌词');
@@ -28,9 +35,11 @@ function lyricCallback(str, id) {
     rem.lastLyric = -1;
     
     // 显示全部歌词
+    console.log(rem.lyric);
     var i = 0;
     for(var k in rem.lyric){
         var txt = rem.lyric[k];
+        console.log(txt);
         if(!txt) txt = "&nbsp;";
         var li = $("<li data-no='"+i+"' class='lrc-item'>"+txt+"</li>");
         lyricArea.append(li);
@@ -77,6 +86,19 @@ function scrollLyric(time) {
     lyricArea.stop().animate({scrollTop: scroll}, 1000);  // 平滑滚动到当前歌词位置(更改这个数值可以改变歌词滚动速度，单位：毫秒)
     
 }
+
+
+// 解析本地歌词
+function parseLocalLyric(lrcPath) {
+    return new Promise(function(resolve, reject) {
+        $.get(lrcPath, function(lrc) {
+            resolve(parseLyric(lrc));
+        }).fail(function() {
+            reject(new Error('Failed to load lyric'));
+        });
+    });
+}
+
 
 // 解析歌词
 // 这一函数来自 https://github.com/TivonJJ/html5-music-player

@@ -43,17 +43,19 @@ var musicList = [
     //*********************************************
     // 自定义列表，手动创建列表并添加歌曲信息
     {
+        id: "9527", 
         name: "自定义列表",   // 播放列表名字
         cover: "/images/album.png", // 播放列表封面图像
         creatorName: "EXP",        // 列表创建者名字(暂时没用到，可空)
         creatorAvatar: "EXP",      // 列表创建者头像(暂时没用到，可空)
-        item: [                 // 这里面放歌曲
+        item: [                 // 这里面放歌曲（这里不要手动添加，否则不会自动加载 music_list.json）
+        /*
             {
                 id: "1",  // 音乐ID
                 name: "从别后",  // 音乐名字
                 artist: "流浪的蛙蛙", // 艺术家名字
                 album: "..",    // 专辑名字
-                source: "netease",     // 音乐来源
+                source: "local",     // 音乐来源
                 url_id: "436514312",  // 链接ID
                 pic_id: "2946691234868155",  // 封面ID
                 lyric_id: "436514312",  // 歌词ID
@@ -65,7 +67,7 @@ var musicList = [
                 name: "打上花火",  // 音乐名字
                 artist: "你的名字", // 艺术家名字
                 album: "你的名字",    // 专辑名字
-                source: "netease",     // 音乐来源
+                source: "local",     // 音乐来源
                 url_id: "436514312",  // 链接ID
                 pic_id: "2946691234868155",  // 封面ID
                 lyric_id: "436514312",  // 歌词ID
@@ -77,13 +79,14 @@ var musicList = [
                 name: "没有人能在我的BGM里打败我",  // 音乐名字
                 artist: "Apocalyptica 启示录乐队", // 艺术家名字
                 album: "bilibili晚会2022最美的夜",    // 专辑名字
-                source: "netease",     // 音乐来源
+                source: "local",     // 音乐来源
                 url_id: "436514312",  // 链接ID
                 pic_id: "2946691234868155",  // 封面ID
                 lyric_id: "436514312",  // 歌词ID
                 pic: "https://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg",    // 专辑图片
                 url: "static/综艺/bilibili晚会2022最美的夜 - Apocalyptica 启示录乐队 - 没有人能在我的BGM里打败我.MP3"   // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
             }  // 列表中最后一首歌大括号后面不要加逗号
+        */
         ]
     }
 ];

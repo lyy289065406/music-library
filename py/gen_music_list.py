@@ -13,7 +13,6 @@
 import os
 import json
 import hashlib
-import random
 from mutagen.easyid3 import EasyID3
 from color_log.clog import log
 
@@ -29,6 +28,7 @@ PIC_SUFFIX = ".jpg"
 def main() :
     # 创建歌曲列表
     musiclist = MusicList(
+        id="9527",
         name="自定义列表",
         cover="/images/album.png",
         creatorName="EXP",
@@ -84,7 +84,8 @@ def calculate_md5(file_path):
 
 
 class MusicList:
-    def __init__(self, name, cover, creatorName, creatorAvatar):
+    def __init__(self, id, name, cover, creatorName, creatorAvatar):
+        self.id = id
         self.name = name
         self.cover = cover
         self.creatorName = creatorName
@@ -108,13 +109,9 @@ class Music:
         self.pic = pic
         self.lyric = lyric
         self.source = source
-        self.url_id = url_id or self.gen_id("URL")
-        self.pic_id = pic_id or self.gen_id("PIC")
-        self.lyric_id = lyric_id or self.gen_id("LRC")
-
-    def gen_id(self, prefix) :
-        id = str(random.randint(1, 1000000))
-        return f"{prefix}-{id}"
+        self.url_id = "" if not url else id
+        self.pic_id = "" if not pic else id
+        self.lyric_id = "" if not lyric else id
 
 
 if __name__ == "__main__" :

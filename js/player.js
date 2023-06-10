@@ -284,16 +284,19 @@ function play(music) {
     if(mkPlayer.debug) {
         console.log('开始播放 - ' + music.name);
         
-        console.info('id: "' + music.id + '",\n' + 
-        'name: "' + music.name + '",\n' +
-        'artist: "' + music.artist + '",\n' +
-        'album: "' + music.album + '",\n' +
-        'source: "' + music.source + '",\n' +
-        'url_id: "' + music.url_id + '",\n' + 
-        'pic_id: "' + music.pic_id + '",\n' + 
-        'lyric_id: "' + music.lyric_id + '",\n' + 
-        'pic: "' + music.pic + '",\n' +
-        'url: "' + music.url + '"');
+        console.info(
+            'id: "' + music.id + '",\n' + 
+            'name: "' + music.name + '",\n' +
+            'artist: "' + music.artist + '",\n' +
+            'album: "' + music.album + '",\n' +
+            'source: "' + music.source + '",\n' +
+            'url_id: "' + music.url_id + '",\n' + 
+            'pic_id: "' + music.pic_id + '",\n' + 
+            'lyric_id: "' + music.lyric_id + '",\n' + 
+            'pic: "' + music.pic + '",\n' +
+            'url: "' + music.url + '",\n' + 
+            'lyric: "' + music.lyric + '"'
+        );
     }
     
     // 遇到错误播放下一首歌
@@ -323,7 +326,8 @@ function play(music) {
     rem.errCount = 0;   // 连续播放失败的歌曲数归零
     music_bar.goto(0);  // 进度条强制归零
     changeCover(music);    // 更新封面展示
-    ajaxLyric(music, lyricCallback);     // ajax加载歌词
+    loadLocalLyric(music, lyricCallback);   // 加载本地歌词
+    // ajaxLyric(music, lyricCallback);     // ajax加载歌词
     music_bar.lock(false);  // 取消进度条锁定
 }
 

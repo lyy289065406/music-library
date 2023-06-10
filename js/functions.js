@@ -787,13 +787,14 @@ function initList() {
             }
             
          // 列表不是用户列表，并且信息为空，需要ajax读取列表
-        }else if(!musicList[i].creatorID && (musicList[i].item == undefined || (i>2 && musicList[i].item.length == 0))) {   
+        } else if(!musicList[i].creatorID && (musicList[i].item == undefined || (i>2 && musicList[i].item.length == 0))) {   
             musicList[i].item = [];
             if(musicList[i].id) {   // 列表ID已定义
+                // 加载本地自定义歌单
+                loadLocalMusicList(musicList[i].id, i);
+
                 // ajax获取列表信息
-                ajaxPlayList(musicList[i].id, i);
-            } else {    // 列表 ID 未定义
-                if(!musicList[i].name) musicList[i].name = '未命名';
+                // ajaxPlayList(musicList[i].id, i);
             }
         }
         
