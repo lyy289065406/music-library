@@ -1,10 +1,10 @@
-// Get the modal and the content div
-var modal = document.getElementById("myModal");
-var content = document.getElementById("content");
+// Get the loginPanel and the musicContent div
+var loginPanel = document.getElementById("loginPanel");
+var musicContent = document.getElementById("musicContent");
 
-// Display the modal
+// Display the loginPanel
 window.onload = function (event) {
-    modal.style.display = "block";
+    loginPanel.style.display = "block";
 }
 
 async function getCredentials() {
@@ -22,7 +22,7 @@ async function getCredentials() {
     }
 }
 
-async function checkAuthentication() {
+async function checkAuthentication(event) {
     event.preventDefault();  // 阻止默认行为，避免刷新页面
 
     const credentials = await getCredentials();
@@ -32,13 +32,12 @@ async function checkAuthentication() {
     // Hash the password entered by the user
     const passwordHash = await hashPassword(pass);
 
-    console.log(passwordHash);
     if (credentials && user == credentials.username && passwordHash == credentials.passwordHash) {
-        // alert("Access granted.");
-        modal.style.display = "none";
-        content.style.display = "block"; // 显示内容
+        // alert("登陆成功");
+        loginPanel.style.display = "none";
+        musicContent.style.display = "block"; // 显示内容
     } else {
-        alert("Access denied.");
+        alert("账号或密码错误");
     }
 }
 

@@ -35,11 +35,9 @@ async function lyricCallback(str, id) {
     rem.lastLyric = -1;
     
     // 显示全部歌词
-    console.log(rem.lyric);
     var i = 0;
     for(var k in rem.lyric){
         var txt = rem.lyric[k];
-        console.log(txt);
         if(!txt) txt = "&nbsp;";
         var li = $("<li data-no='"+i+"' class='lrc-item'>"+txt+"</li>");
         lyricArea.append(li);
