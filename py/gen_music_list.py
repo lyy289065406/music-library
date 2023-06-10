@@ -22,7 +22,7 @@ DEFAULT_ENCODING = "utf-8"
 WORK_DIR = "."
 MUSIC_DIR = f"{WORK_DIR}/static"
 MUSIC_LIST = f"{MUSIC_DIR}/music_list.json"
-MUSIC_SUFFIX = ".mp3"
+MUSIC_SUFFIXES = [ ".mp3", ".wma" ]
 LYRIC_SUFFIX = ".lrc"
 PIC_SUFFIX = ".jpg"
 
@@ -41,7 +41,7 @@ def main() :
     # 遍历所有文件
     for root, _, files in os.walk(MUSIC_DIR):
         for file in files:
-            if file.lower().endswith(MUSIC_SUFFIX) :
+            if file.lower().endswith(tuple(MUSIC_SUFFIXES)) :
                 absolute_path = os.path.join(root, file)
                 rel_path = os.path.relpath(absolute_path, WORK_DIR).replace("\\", "/")
                 rel_dir = os.path.dirname(rel_path)
