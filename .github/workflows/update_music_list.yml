@@ -1,7 +1,11 @@
 name: Update Music List
-
 on:
-  pull_request:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
   update_music_list:
