@@ -20,7 +20,7 @@ jobs:
       run: pip install -r py/requirements.txt
 
     - name: Run update_music_list.py
-      run: python py/gen_music_list.py
+      run: python py/gen_music_list.py -i "${{ vars.ignores }}"
 
     - name: Check for changes
       id: changes
