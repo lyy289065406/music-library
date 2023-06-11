@@ -66,6 +66,11 @@
 ## 0x50 mStream 播放器
 
 1. 本地安装 docker 和 docker-compose
-2. 参考 [mstream-docker](https://github.com/lyy289065406/mstream-docker) 的说明部署
-3. 
+2. 参考 [mstream-docker](https://github.com/lyy289065406/mstream-docker) 的指引部署
+3. 访问 http://127.0.0.1:9000 ，填入登录账密
+4. 在页面的 File Explore 加载 [`static`](./static/) 目录下的音乐文件
+
+![](./images/05.jpg)
+
+> 只能在本地 PC 使用，除了支持自定义歌单之外，没什么优势，而且不支持歌词。Github Page 播放器未来也会支持自定义歌单（存储在 cookies）
 
