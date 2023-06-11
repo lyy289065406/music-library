@@ -10,6 +10,9 @@ on:
 jobs:
   update_music_list:
     runs-on: ubuntu-latest
+    # 当仓库隶属组织时，赋予流水线“写权限”以便提交变更
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
