@@ -10,7 +10,7 @@
 
 
 import os
-from mutagen.id3 import ID3, TPE1, TALB, TIT2
+from mutagen.id3 import ID3, TIT2, TPE1, TALB
 from color_log.clog import log
 
 WORK_DIR = "."
@@ -51,36 +51,28 @@ def fix_meta_to_utf8(music_path, music_name) :
 
 # 修正 标题 元数据
 def fix_title(audio, default_title) :
-    try:
-        title_frames = audio.getall('TIT2')  # 获取所有 'TIT2' 帧（标题）
-        title = decode_gibberish(title_frames)
-        if title == "" or title == "<未知标题>" :
-            audio.delall('TIT2')                            # 删除所有 'TPE1' 帧
-            audio.add(TIT2(encoding=3, text=default_title))    # 添加新的 'TIT2' 帧
-    except:
-        pass    # 正确的元数据因为无法解码报错，无需处理
+    fix_metadata(audio, TIT2, 'TIT2', default_title, '<未知标题>')
 
 
 # 修正 艺术家 元数据
 def fix_artist(audio, default_artist) :
-    try:
-        artist_frames = audio.getall('TPE1')  # 获取所有 'TPE1' 帧（艺术家）
-        artist = decode_gibberish(artist_frames)
-        if artist == "" or artist == "<未知艺术家>" :
-            audio.delall('TPE1')                                # 删除所有 'TPE1' 帧
-            audio.add(TPE1(encoding=3, text=default_artist))    # 添加新的 'TPE1' 帧
-    except:
-        pass    # 正确的元数据因为无法解码报错，无需处理
+    fix_metadata(audio, TPE1, 'TPE1', default_artist, '<未知艺术家>')
 
 
 # 修正 专辑 元数据
 def fix_album(audio, default_album) :
+    fix_metadata(audio, TALB, 'TALB', default_album, '<未知唱片集>')
+
+
+def fix_metadata(audio, meta_class, meta_tag, default_value, unknow_value) :
     try:
-        album_frames = audio.getall('TALB')  # 获取所有 'TALB' 帧（专辑）
-        album = decode_gibberish(album_frames)
-        if album == "" or album == "<未知唱片集>" :
-            audio.delall('TALB')                                # 删除所有 'TALB' 帧
-            audio.add(TALB(encoding=3, text=default_album))     # 添加新的 'TALB' 帧
+        frames = audio.getall(meta_tag)  # 获取元标签的所有帧
+        value = decode_gibberish(frames)
+        if value == "" or value == unknow_value :
+            value = default_value
+
+        audio.delall(meta_tag)                   # 删除元标签的所有帧
+        audio.add(meta_class(encoding=3, text=value))  # 添加新的元标签帧
     except:
         pass    # 正确的元数据因为无法解码报错，无需处理
 
