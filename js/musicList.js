@@ -10,6 +10,7 @@ var musicList = [
     // 以下三个系统预留列表请勿更改，否则可能导致程序无法正常运行！
     // 预留列表：搜索结果
     {
+        id: "0", 
         name: "搜索结果",   // 播放列表名字
         cover: "",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
@@ -20,6 +21,7 @@ var musicList = [
     },
     // 预留列表：正在播放
     {
+        id: "1", 
         name: "正在播放",   // 播放列表名字
         cover: "",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
@@ -31,6 +33,7 @@ var musicList = [
     // 预留列表：播放历史
     {
         /* 可以手动维护这个歌单，然后再把它自动生成就好了，其他功能用到再调 */
+        id: "2", 
         name: "播放历史",   // 播放列表名字
         cover: "images/history.png",          // 播放列表封面
         creatorName: "",        // 列表创建者名字
@@ -44,7 +47,7 @@ var musicList = [
     // 自定义列表，手动创建列表并添加歌曲信息
     {
         id: "9527", 
-        name: "自定义列表",   // 播放列表名字
+        name: "Github 歌单",        // 播放列表名字
         cover: "images/album.png", // 播放列表封面图像
         creatorName: "EXP",        // 列表创建者名字(暂时没用到，可空)
         creatorAvatar: "EXP",      // 列表创建者头像(暂时没用到，可空)

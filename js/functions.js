@@ -299,17 +299,19 @@ function musicInfo(list, index) {
     });
     
     if(mkPlayer.debug) {
-        console.info('id: "' + music.id + '",\n' + 
-        'name: "' + music.name + '",\n' +
-        'artist: "' + music.artist + '",\n' +
-        'album: "' + music.album + '",\n' +
-        'source: "' + music.source + '",\n' +
-        'url_id: "' + music.url_id + '",\n' + 
-        'pic_id: "' + music.pic_id + '",\n' + 
-        'lyric_id: "' + music.lyric_id + '",\n' + 
-        'pic: "' + music.pic + '",\n' +
-        'url: ""');
-        // 'url: "' + music.url + '"');
+        console.info(
+            'id: "' + music.id + '",\n' + 
+            'name: "' + music.name + '",\n' +
+            'artist: "' + music.artist + '",\n' +
+            'album: "' + music.album + '",\n' +
+            'source: "' + music.source + '",\n' +
+            'url_id: "' + music.url_id + '",\n' + 
+            'pic_id: "' + music.pic_id + '",\n' + 
+            'lyric_id: "' + music.lyric_id + '",\n' + 
+            'pic: "' + music.pic + '",\n' +
+            'url: "' + music.url + '",\n' + 
+            'lyric: "' + music.lyric + '"'
+        );
     }
 }
 
@@ -493,7 +495,7 @@ function loadList(list) {
             'id: ' + musicList[list].id + ',\n' +
             'name: "' + musicList[list].name + '",\n' +
             'cover: "' + musicList[list].cover + '",\n' +
-            'item: []');
+            'item: [] (size:' + musicList[list].item.length + ')');
         } else {
             console.log('加载播放列表 ' + list + ' - ' + musicList[list].name);
         }
@@ -513,7 +515,7 @@ function loadList(list) {
             addItem(i + 1, tmpMusic.name, tmpMusic.artist, tmpMusic.album);
             
             // 音乐链接均有有效期限制,重新显示列表时清空处理
-            if(list == 1 || list == 2) tmpMusic.url = "";
+            // if(list == 1 || list == 2) tmpMusic.url = "";
         }
         
         // 列表加载完成后的处理

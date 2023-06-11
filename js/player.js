@@ -184,7 +184,21 @@ function listClick(no) {
     
     // 调试信息输出
     if(mkPlayer.debug) {
-        console.log("点播了列表中的第 " + (no + 1) + " 首歌 " + musicList[rem.dislist].item[no].name);
+        var music = musicList[rem.dislist].item[no];
+        console.log("点播了列表中的第 " + (no + 1) + " 首歌 ");
+        console.info(
+            'id: "' + music.id + '",\n' + 
+            'name: "' + music.name + '",\n' +
+            'artist: "' + music.artist + '",\n' +
+            'album: "' + music.album + '",\n' +
+            'source: "' + music.source + '",\n' +
+            'url_id: "' + music.url_id + '",\n' + 
+            'pic_id: "' + music.pic_id + '",\n' + 
+            'lyric_id: "' + music.lyric_id + '",\n' + 
+            'pic: "' + music.pic + '",\n' +
+            'url: "' + music.url + '",\n' + 
+            'lyric: "' + music.lyric + '"'
+        );
     }
     
     // 搜索列表的歌曲要额外处理
@@ -283,7 +297,6 @@ function play(music) {
     // 调试信息输出
     if(mkPlayer.debug) {
         console.log('开始播放 - ' + music.name);
-        
         console.info(
             'id: "' + music.id + '",\n' + 
             'name: "' + music.name + '",\n' +

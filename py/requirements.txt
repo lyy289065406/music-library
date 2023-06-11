@@ -1,3 +1,4 @@
 argparse>=1.4.0
 py-color-log>=1.0.4
 mutagen>=1.46.0
+pydub>=0.25.1

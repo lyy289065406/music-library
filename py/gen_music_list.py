@@ -29,7 +29,7 @@ def main() :
     # 创建歌曲列表
     musiclist = MusicList(
         id="9527",
-        name="自定义列表",
+        name="Github 歌单",
         cover="images/album.png",
         creatorName="EXP",
         creatorAvatar="images/avatar.jpg"

@@ -1,10 +1,19 @@
+// 登录总开关
+var showLogin = true;
+
+
 // Get the loginPanel and the musicContent div
 var loginPanel = document.getElementById("loginPanel");
 var musicContent = document.getElementById("musicContent");
 
 // Display the loginPanel
 window.onload = function (event) {
-    loginPanel.style.display = "block";
+    if (showLogin) {
+        loginPanel.style.display = "block";
+    } else {
+        loginPanel.style.display = "none";
+        musicContent.style.display = "block";
+    }
 }
 
 async function getCredentials() {
