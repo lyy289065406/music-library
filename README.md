@@ -19,7 +19,7 @@
 ## 0x10 前置准备
 
 1. 把音乐文件（暂时只支持 `*.mp3`）放到 [`static`](./static/) 下的任意子目录
-2. 执行 `python -m pip install ./py/requirements.txt` 安装必要依赖
+2. 执行 `python -m pip install -r ./py/requirements.txt` 安装必要依赖
 3. 执行 `python ./py/fix_metadata.py` 自动修复音乐文件的元数据
 4. 执行 `python ./py/gen_music_list.py` 生成歌单 [`music_list.json`](./static/music_list.json)
 5. 执行 `python ./py/gen_login.py` 生成网页播放器的登录账密
