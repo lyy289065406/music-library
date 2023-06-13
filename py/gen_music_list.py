@@ -42,7 +42,7 @@ def args() :
 
 
 def main(args) :
-    ignores = tuple([x.strip() for x in args.ignores.split(',')])
+    ignores = [x.strip() for x in args.ignores.split(',')]
 
     # 创建歌曲列表
     musiclist = MusicList(
@@ -56,7 +56,7 @@ def main(args) :
 
     # 遍历所有文件
     for root, _, files in os.walk(MUSIC_DIR):
-        if root.lower().endswith(ignores) :
+        if any(kw in root.lower() for kw in ignores) :
             log.warn(f"跳过目录： {root}")
             continue
         
