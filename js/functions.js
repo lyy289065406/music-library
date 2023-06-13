@@ -317,9 +317,21 @@ function musicInfo(list, index) {
 
 // 展现搜索弹窗
 function searchBox() {
-    alert("暂不支持");
+    var keyword = prompt("请输入歌曲关键字：");
+    if (keyword) {
+        var songElements = document.querySelectorAll('.list-item');
+        for (var i = 0; i < songElements.length; i++) {
+            var songElement = songElements[i];
+            var songNameElement = songElement.querySelector('.music-name');
+            if (songNameElement && songNameElement.textContent.includes(keyword)) {
+                songElement.scrollIntoView();
+                break;
+            }
+        }
+    }
     return;
 
+    // 旧版本代码
     var tmpHtml = '<form onSubmit="return searchSubmit()"><div id="search-area">' +
         '    <div class="search-group">' +
         '        <input type="text" name="wd" id="search-wd" placeholder="搜索歌手、歌名、专辑" autofocus required>' +
