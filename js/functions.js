@@ -527,9 +527,16 @@ function loadList(list) {
             if (mkPlayer.autoplay == true) pause();  // 设置了自动播放，则自动播放
         } else {
             refreshList();  // 刷新列表，添加正在播放样式
+
+            // 找到当前正在播放的歌曲在列表中的元素
+            var playingElement = document.querySelector('.list-playing');
+            if (playingElement) {
+                // 将当前正在播放的歌曲滚动到视图中
+                playingElement.scrollIntoView();
+            }
         }
 
-        listToTop();    // 播放列表滚动到顶部
+        // listToTop();    // 播放列表滚动到顶部
     }
 }
 
