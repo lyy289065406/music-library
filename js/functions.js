@@ -324,7 +324,8 @@ function searchBox() {
             var songElement = songElements[i];
             var songNameElement = songElement.querySelector('.music-name');
             if (songNameElement && songNameElement.textContent.includes(keyword)) {
-                songElement.scrollIntoView();
+                // 使用 mCustomScrollbar 插件的 scrollTo 方法来滚动到目标歌曲
+                $("#mCSB_draggerContainer").mCustomScrollbar("scrollTo", songElement);
                 break;
             }
         }
@@ -675,7 +676,10 @@ function refreshList() {
             if ((musicList[rem.dislist].item[i].id !== undefined) &&
                 (musicList[rem.dislist].item[i].id == musicList[1].item[rem.playid].id) &&
                 (musicList[rem.dislist].item[i].source == musicList[1].item[rem.playid].source)) {
-                $(".list-item[data-no='" + i + "']").addClass("list-playing");  // 添加正在播放样式
+                
+                var playingElement = $(".list-item[data-no='" + i + "']");
+                playingElement.addClass("list-playing")[0].scrollIntoView();  // 添加正在播放样式
+                $("#mCSB_draggerContainer").mCustomScrollbar("scrollTo", playingElement);  // 滚动到视图中
 
                 return true;    // 一般列表中只有一首，找到了赶紧跳出
             }
