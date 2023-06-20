@@ -9,6 +9,8 @@
 
 个人用的音乐库 + 跨平台播放支持。
 
+> 如果希望自用，可以 Fork 这个纯净仓库 [Github Pages Music Player](https://github.com/EXP-Tools/github-pages-music-player)
+
 **禁止商用**！！！**禁止商用**！！！**禁止商用**！！！
 
 **禁止商用**！！！**禁止商用**！！！**禁止商用**！！！
@@ -25,11 +27,11 @@
 5. 执行 `python ./py/gen_login.py` 生成网页播放器的登录账密
 
 
-## 0x20 Github Page 在线播放器
+## 0x20 Github Pages 在线播放器
 
-1. 启动 Github Page 即可
-2. 当上传新的音乐文件到 [`static`](./static/) 下，[update_music_list.yml](./.github/workflows/update_music_list.yml) 会自动刷新歌单，触发 Github Page 刷新
-3. 访问 Github Page 分配的域名，填入登录账密即可
+1. 启动 Github Pages 即可
+2. 当上传新的音乐文件到 [`static`](./static/) 下，[update_music_list.yml](./.github/workflows/update_music_list.yml) 会自动刷新歌单，触发 Github Pages 刷新
+3. 访问 Github Pages 分配的域名，填入登录账密即可
 
 ![](./images/01.jpg)
 
@@ -45,7 +47,7 @@
 
 ![](./images/01.jpg)
 
-> 此方式是在本地模拟 Github Page，一般用于调试代码
+> 此方式是在本地模拟 Github Pages，一般用于调试代码
 
 
 ## 0x40 MusicPlayer2 播放器
@@ -59,7 +61,7 @@
 
 ![](./images/04.jpg)
 
-之所以推荐这款软件，是因为可以很方便修改音乐文件的元数据、下载歌词和专辑封面图片，然后直接提供给 Github Page 或 Docker 播放器使用
+之所以推荐这款软件，是因为可以很方便修改音乐文件的元数据、下载歌词和专辑封面图片，然后直接提供给 Github Pages 或 Docker 播放器使用
 
 > 更新元数据、歌词 或 封面图片后，需要重新生成歌单 [`music_list.json`](./static/music_list.json)
 
@@ -73,5 +75,5 @@
 
 ![](./images/05.jpg)
 
-> 只能在本地 PC 使用，除了支持自定义歌单之外，没什么优势，而且不支持歌词。Github Page 播放器未来也会支持自定义歌单（存储在 cookies）
+> 只能在本地 PC 使用，除了支持自定义歌单之外，没什么优势，而且不支持歌词。Github Pages 播放器未来也会支持自定义歌单（存储在 cookies）
 

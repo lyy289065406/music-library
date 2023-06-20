@@ -1,6 +1,8 @@
 // 登录总开关
 var showLogin = true;
-
+if (mkPlayer.debug) {
+    showLogin = false;
+}
 
 // Get the loginPanel and the musicContent div
 var loginPanel = document.getElementById("loginPanel");
