@@ -9,13 +9,13 @@
 
 个人用的音乐库 + 跨平台播放支持。
 
-> 如果希望自用，可以 Fork 这个纯净仓库 [Github Pages Music Player](https://github.com/EXP-Tools/github-pages-music-player)
-
 **禁止商用**！！！**禁止商用**！！！**禁止商用**！！！
 
 **禁止商用**！！！**禁止商用**！！！**禁止商用**！！！
 
 **禁止商用**！！！**禁止商用**！！！**禁止商用**！！！
+
+> 如果希望自用，可以移步 Fork 这个纯净仓库 [Github Pages Music Player](https://github.com/EXP-Tools/github-pages-music-player)
 
 
 ## 0x10 前置准备
