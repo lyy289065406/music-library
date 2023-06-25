@@ -2,10 +2,10 @@ name: Update Music List
 on:
   push:
     branches:
-      - master
+      - custom
   workflow_dispatch:
     branches:
-      - master
+      - custom
 
 jobs:
   update_music_list:
@@ -18,7 +18,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        ref: master
+        ref: custom
         fetch-depth: 0
 
     - name: Set up Python
