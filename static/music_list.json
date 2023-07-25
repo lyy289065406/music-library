@@ -1495,11 +1495,11 @@
                 "album": "",
                 "url": "static/流行/张学友 - 还是觉得你最好.mp3",
                 "pic": "",
-                "lyric": "",
+                "lyric": "static/流行/张学友 - 还是觉得你最好.lrc",
                 "source": "local",
                 "url_id": "9ff55a1f6b6059f760eb30e49c67e4d2",
                 "pic_id": "",
-                "lyric_id": ""
+                "lyric_id": "9ff55a1f6b6059f760eb30e49c67e4d2"
             },
             {
                 "id": "7dffebe20b7b262f71e91b731d086545",
@@ -1799,6 +1799,19 @@
                 "url_id": "3d3b3773f3b22bb0d1141b0592eddd6f",
                 "pic_id": "",
                 "lyric_id": "3d3b3773f3b22bb0d1141b0592eddd6f"
+            },
+            {
+                "id": "25d92e6d390bb2a0f31d3f9225434a11",
+                "name": "想死君 - unravel - 東京喰種",
+                "artist": "",
+                "album": "",
+                "url": "static/动漫/想死君 - unravel - 東京喰種.mp3",
+                "pic": "",
+                "lyric": "static/动漫/想死君 - unravel - 東京喰種.lrc",
+                "source": "local",
+                "url_id": "25d92e6d390bb2a0f31d3f9225434a11",
+                "pic_id": "",
+                "lyric_id": "25d92e6d390bb2a0f31d3f9225434a11"
             },
             {
                 "id": "4d9730625f36d0287f84a92c6f15b054",
