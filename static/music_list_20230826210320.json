@@ -1593,6 +1593,19 @@
                 "lyric_id": "5ae62abd806b6aeb3142ff8eaed0e6f3"
             },
             {
+                "id": "718b977e314f53d2775aded68928b378",
+                "name": "张碧晨 - 笼",
+                "artist": "张碧晨",
+                "album": "消失的她",
+                "url": "static/流行/张碧晨 - 笼.mp3",
+                "pic": "static/流行/张碧晨 - 笼.jpg",
+                "lyric": "static/流行/张碧晨 - 笼.lrc",
+                "source": "local",
+                "url_id": "718b977e314f53d2775aded68928b378",
+                "pic_id": "718b977e314f53d2775aded68928b378",
+                "lyric_id": "718b977e314f53d2775aded68928b378"
+            },
+            {
                 "id": "465ce911a7a1df6e12f3944bc9bdb292",
                 "name": "有翡 - 无华",
                 "artist": "張靚穎/劉宇寧",
@@ -2074,6 +2087,19 @@
                 "lyric_id": "d902ef49f33d1b77a99ac56164939f3c"
             },
             {
+                "id": "03d31e57ddbfc84d1972ec7d47ba6db5",
+                "name": "咻咻满 - 笼",
+                "artist": "咻咻满",
+                "album": "消失的她",
+                "url": "static/翻唱/咻咻满 - 笼.mp3",
+                "pic": "static/翻唱/咻咻满 - 笼.jpg",
+                "lyric": "static/翻唱/咻咻满 - 笼.lrc",
+                "source": "local",
+                "url_id": "03d31e57ddbfc84d1972ec7d47ba6db5",
+                "pic_id": "03d31e57ddbfc84d1972ec7d47ba6db5",
+                "lyric_id": "03d31e57ddbfc84d1972ec7d47ba6db5"
+            },
+            {
                 "id": "011267ad8a5ebeed8f69e1f872d683c4",
                 "name": "林一 - 只爱西经",
                 "artist": "林一",
@@ -2123,6 +2149,19 @@
                 "source": "local",
                 "url_id": "81e5f6e85aa32a2841b2faed2b28f94a",
                 "pic_id": "",
+                "lyric_id": ""
+            },
+            {
+                "id": "e4e27b5d466d58ebcc1fe3c39a42c63a",
+                "name": "祖娅纳惜 - 笼",
+                "artist": "祖娅纳惜",
+                "album": "消失的他",
+                "url": "static/翻唱/祖娅纳惜 - 笼.mp3",
+                "pic": "static/翻唱/祖娅纳惜 - 笼.jpg",
+                "lyric": "",
+                "source": "local",
+                "url_id": "e4e27b5d466d58ebcc1fe3c39a42c63a",
+                "pic_id": "e4e27b5d466d58ebcc1fe3c39a42c63a",
                 "lyric_id": ""
             },
             {
