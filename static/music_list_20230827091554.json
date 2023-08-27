@@ -20,6 +20,19 @@
                 "lyric_id": "d46a94369fb7a00596b6b79b693b2aec"
             },
             {
+                "id": "e4ea1c2a3a1538610b48a2292f6c9571",
+                "name": "TVB儿歌金曲串烧",
+                "artist": "",
+                "album": "",
+                "url": "static/动漫/TVB儿歌金曲串烧.mp3",
+                "pic": "",
+                "lyric": "",
+                "source": "local",
+                "url_id": "e4ea1c2a3a1538610b48a2292f6c9571",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
                 "id": "949b4dde18da927657e84936231c73e9",
                 "name": "一念永恒 - 无念",
                 "artist": "一念永恒",
@@ -1983,6 +1996,19 @@
                 "lyric_id": "e1d10fbcc6b95ebaa4fc8c3df18d0147"
             },
             {
+                "id": "eacf258bc3ea33967456c1ca3fd1ae2e",
+                "name": "导演剪辑版 - 笼",
+                "artist": "",
+                "album": "",
+                "url": "static/综艺/导演剪辑版 - 笼.mp3",
+                "pic": "",
+                "lyric": "",
+                "source": "local",
+                "url_id": "eacf258bc3ea33967456c1ca3fd1ae2e",
+                "pic_id": "",
+                "lyric_id": ""
+            },
+            {
                 "id": "084365bce1533659c8f7795b3267e237",
                 "name": "张含韵 - 大碗宽面",
                 "artist": "",
@@ -2158,11 +2184,11 @@
                 "album": "消失的他",
                 "url": "static/翻唱/祖娅纳惜 - 笼.mp3",
                 "pic": "static/翻唱/祖娅纳惜 - 笼.jpg",
-                "lyric": "",
+                "lyric": "static/翻唱/祖娅纳惜 - 笼.lrc",
                 "source": "local",
                 "url_id": "e4e27b5d466d58ebcc1fe3c39a42c63a",
                 "pic_id": "e4e27b5d466d58ebcc1fe3c39a42c63a",
-                "lyric_id": ""
+                "lyric_id": "e4e27b5d466d58ebcc1fe3c39a42c63a"
             },
             {
                 "id": "7cf4f8c5da874a6b5533e07b68a45013",
