@@ -1650,11 +1650,11 @@
                 "artist": "咻咻满",
                 "album": "翻唱",
                 "url": "static/翻唱/咻咻满 - 奢香夫人.mp3",
-                "pic": "",
+                "pic": "static/翻唱/咻咻满 - 奢香夫人.jpg",
                 "lyric": "static/翻唱/咻咻满 - 奢香夫人.lrc",
                 "source": "local",
                 "url_id": "2eef0a436dc8d722d0f36ca95c91f4a6",
-                "pic_id": "",
+                "pic_id": "2eef0a436dc8d722d0f36ca95c91f4a6",
                 "lyric_id": "2eef0a436dc8d722d0f36ca95c91f4a6"
             },
             {
@@ -1669,6 +1669,19 @@
                 "url_id": "03d31e57ddbfc84d1972ec7d47ba6db5",
                 "pic_id": "03d31e57ddbfc84d1972ec7d47ba6db5",
                 "lyric_id": "03d31e57ddbfc84d1972ec7d47ba6db5"
+            },
+            {
+                "id": "cd2dc190e0bab8e512213b59aea0e975",
+                "name": "咻咻满 - 花海",
+                "artist": "咻咻满, 周梓琦",
+                "album": "翻唱",
+                "url": "static/翻唱/咻咻满 - 花海.mp3",
+                "pic": "static/翻唱/咻咻满 - 花海.jpg",
+                "lyric": "static/翻唱/咻咻满 - 花海.lrc",
+                "source": "local",
+                "url_id": "cd2dc190e0bab8e512213b59aea0e975",
+                "pic_id": "cd2dc190e0bab8e512213b59aea0e975",
+                "lyric_id": "cd2dc190e0bab8e512213b59aea0e975"
             },
             {
                 "id": "011267ad8a5ebeed8f69e1f872d683c4",
