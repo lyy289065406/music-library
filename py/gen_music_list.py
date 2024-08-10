@@ -73,6 +73,10 @@ def main(args) :
             if not file.lower().endswith(tuple(MUSIC_SUFFIXES)) :
                 continue
 
+            if any(kw in file.lower() for kw in ignores) :
+                log.warn(f"跳过文件： {root}")
+                continue
+
             absolute_path = os.path.join(root, file)
             rel_path = os.path.relpath(absolute_path, WORK_DIR).replace("\\", "/")
             rel_dir = os.path.dirname(rel_path)
