@@ -7,32 +7,6 @@
         "creatorAvatar": "images/avatar.jpg",
         "item": [
             {
-                "id": "81507ac27209d70aae26dc1cd5d75964",
-                "name": "东成西就 - 谁是大英雄（张学友[国语]）",
-                "artist": "张学友",
-                "album": "电影《射雕英雄传之东成西就》主",
-                "url": "static/影视/东成西就 - 谁是大英雄（张学友[国语]）.mp3",
-                "pic": "static/影视/东成西就 - 谁是大英雄（张学友[国语]）.jpg",
-                "lyric": "static/影视/东成西就 - 谁是大英雄（张学友[国语]）.lrc",
-                "source": "local",
-                "url_id": "81507ac27209d70aae26dc1cd5d75964",
-                "pic_id": "81507ac27209d70aae26dc1cd5d75964",
-                "lyric_id": "81507ac27209d70aae26dc1cd5d75964"
-            },
-            {
-                "id": "a30267748f4cf6894b7c7d464e5890fc",
-                "name": "笑傲江湖 - 分飞",
-                "artist": "徐怀钰",
-                "album": "Love",
-                "url": "static/影视/笑傲江湖 - 分飞.mp3",
-                "pic": "",
-                "lyric": "static/影视/笑傲江湖 - 分飞.lrc",
-                "source": "local",
-                "url_id": "a30267748f4cf6894b7c7d464e5890fc",
-                "pic_id": "",
-                "lyric_id": "a30267748f4cf6894b7c7d464e5890fc"
-            },
-            {
                 "id": "580f8dc86d405fe2105b78715542805b",
                 "name": "张学友 - 还是觉得你最好",
                 "artist": "张继聪",
@@ -85,19 +59,6 @@
                 "lyric_id": ""
             },
             {
-                "id": "9c83e902bf0855f208198142f73dcea1",
-                "name": "女孩冲冲冲 - 生日卡片",
-                "artist": "黄圣依",
-                "album": "",
-                "url": "static/影视/女孩冲冲冲 - 生日卡片.mp3",
-                "pic": "static/影视/女孩冲冲冲 - 生日卡片.jpg",
-                "lyric": "static/影视/女孩冲冲冲 - 生日卡片.lrc",
-                "source": "local",
-                "url_id": "9c83e902bf0855f208198142f73dcea1",
-                "pic_id": "9c83e902bf0855f208198142f73dcea1",
-                "lyric_id": "9c83e902bf0855f208198142f73dcea1"
-            },
-            {
                 "id": "b63c63538172fceedd76e91edffcf917",
                 "name": "单依纯 - 一生一念 - 仙剑六祈今朝",
                 "artist": "单依纯",
@@ -122,19 +83,6 @@
                 "url_id": "b8376c5557ef07c0cafb1bd56e30c283",
                 "pic_id": "b8376c5557ef07c0cafb1bd56e30c283",
                 "lyric_id": "b8376c5557ef07c0cafb1bd56e30c283"
-            },
-            {
-                "id": "92e601ce7aec83e029c07049de5cac77",
-                "name": "鹿鼎记 - 怎么忽然就成了这样",
-                "artist": "张芯",
-                "album": "鹿鼎记",
-                "url": "static/影视/鹿鼎记 - 怎么忽然就成了这样.mp3",
-                "pic": "static/影视/鹿鼎记 - 怎么忽然就成了这样.jpg",
-                "lyric": "static/影视/鹿鼎记 - 怎么忽然就成了这样.lrc",
-                "source": "local",
-                "url_id": "92e601ce7aec83e029c07049de5cac77",
-                "pic_id": "92e601ce7aec83e029c07049de5cac77",
-                "lyric_id": "92e601ce7aec83e029c07049de5cac77"
             },
             {
                 "id": "f57696394caf454ef1bc51b28a02f169",
@@ -254,19 +202,6 @@
                 "lyric_id": "dc09801af6140cacf56f53fd90e66678"
             },
             {
-                "id": "ca1f28d62f0dc45217bf7981a7399ac4",
-                "name": "义海豪情 - 义海豪情",
-                "artist": "",
-                "album": "",
-                "url": "static/影视/义海豪情 - 义海豪情.mp3",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "ca1f28d62f0dc45217bf7981a7399ac4",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
                 "id": "c4a8b67a39190e909c05226e05e95b7f",
                 "name": "打机王 - 华丽宇宙",
                 "artist": "打机王",
@@ -317,19 +252,6 @@
                 "url_id": "b1fd89fbcc94e415cd54408179112cc5",
                 "pic_id": "b1fd89fbcc94e415cd54408179112cc5",
                 "lyric_id": "b1fd89fbcc94e415cd54408179112cc5"
-            },
-            {
-                "id": "edc9d593e1c7f03f921ff10e4bc9395c",
-                "name": "义海豪情 - 红蝴蝶",
-                "artist": "吴卓羲",
-                "album": "TVB电视剧《巾帼枭雄》主题曲",
-                "url": "static/影视/义海豪情 - 红蝴蝶.mp3",
-                "pic": "static/影视/义海豪情 - 红蝴蝶.jpg",
-                "lyric": "static/影视/义海豪情 - 红蝴蝶.lrc",
-                "source": "local",
-                "url_id": "edc9d593e1c7f03f921ff10e4bc9395c",
-                "pic_id": "edc9d593e1c7f03f921ff10e4bc9395c",
-                "lyric_id": "edc9d593e1c7f03f921ff10e4bc9395c"
             },
             {
                 "id": "b856eefd9c8899f06316cd6e871e28b8",
@@ -384,19 +306,6 @@
                 "lyric_id": "cc2d8bc94f0fdcea3f0bfec5c6898253"
             },
             {
-                "id": "a03f44d184bf0a4fd7c4359c6214bd76",
-                "name": "东成西就 - 谁是大英雄（黄沾[粤语]）",
-                "artist": "东成西就",
-                "album": "东成西就",
-                "url": "static/影视/东成西就 - 谁是大英雄（黄沾[粤语]）.mp3",
-                "pic": "static/影视/东成西就 - 谁是大英雄（黄沾[粤语]）.jpg",
-                "lyric": "static/影视/东成西就 - 谁是大英雄（黄沾[粤语]）.lrc",
-                "source": "local",
-                "url_id": "a03f44d184bf0a4fd7c4359c6214bd76",
-                "pic_id": "a03f44d184bf0a4fd7c4359c6214bd76",
-                "lyric_id": "a03f44d184bf0a4fd7c4359c6214bd76"
-            },
-            {
                 "id": "e6cb9f391f56c65c7ccd5572b52eeb99",
                 "name": "神雕侠侣 - 江湖笑",
                 "artist": "张纪中/周华健/胡军/黄晓明/小虫",
@@ -421,19 +330,6 @@
                 "url_id": "2d8132b57c34d540fb3334194adb8d9d",
                 "pic_id": "2d8132b57c34d540fb3334194adb8d9d",
                 "lyric_id": "2d8132b57c34d540fb3334194adb8d9d"
-            },
-            {
-                "id": "a17691f85017a0e76fe491754c95acf2",
-                "name": "严艺丹 - 三寸天堂 - [步步惊心]",
-                "artist": "三寸天堂",
-                "album": "严艺丹",
-                "url": "static/影视/严艺丹 - 三寸天堂 - [步步惊心].mp3",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "a17691f85017a0e76fe491754c95acf2",
-                "pic_id": "",
-                "lyric_id": ""
             },
             {
                 "id": "6dbc3a7b9a64cc47fd0a15ebfebaa43f",
@@ -1125,19 +1021,6 @@
                 "lyric_id": "831298b2a3e4bfa9769e2e4a8ed5dfe4"
             },
             {
-                "id": "51ea9326cb4ec099fb47b5c9e9e7e4cc",
-                "name": "爸爸去哪儿",
-                "artist": "爸爸去哪儿",
-                "album": "爸爸去哪儿",
-                "url": "static/综艺/爸爸去哪儿.mp3",
-                "pic": "",
-                "lyric": "static/综艺/爸爸去哪儿.lrc",
-                "source": "local",
-                "url_id": "51ea9326cb4ec099fb47b5c9e9e7e4cc",
-                "pic_id": "",
-                "lyric_id": "51ea9326cb4ec099fb47b5c9e9e7e4cc"
-            },
-            {
                 "id": "6f6beaf868bcf0b169049babd9d0ef95",
                 "name": "周深&白鹿 - 一千零一个愿望",
                 "artist": "周深&白鹿",
@@ -1630,58 +1513,6 @@
                 "url_id": "55d2a586159c847eef98ff69527eb3dc",
                 "pic_id": "",
                 "lyric_id": ""
-            },
-            {
-                "id": "8910de0fb46222247f8665c0cb8db68b",
-                "name": "哆啦A梦 - 感動!テーマ その",
-                "artist": "哆啦A梦新番插曲",
-                "album": "ドラえもん 音楽集",
-                "url": "static/动漫/哆啦A梦/哆啦A梦 - 感動!テーマ その.mp3",
-                "pic": "static/动漫/哆啦A梦/哆啦A梦 - 感動!テーマ その.jpg",
-                "lyric": "static/动漫/哆啦A梦/哆啦A梦 - 感動!テーマ その.lrc",
-                "source": "local",
-                "url_id": "8910de0fb46222247f8665c0cb8db68b",
-                "pic_id": "8910de0fb46222247f8665c0cb8db68b",
-                "lyric_id": "8910de0fb46222247f8665c0cb8db68b"
-            },
-            {
-                "id": "51d76b463271e17cb128c9dd53e68585",
-                "name": "哆啦A梦 - かけがえのない诗",
-                "artist": "",
-                "album": "",
-                "url": "static/动漫/哆啦A梦/哆啦A梦 - かけがえのない诗.mp3",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "51d76b463271e17cb128c9dd53e68585",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
-                "id": "270549f60f9cd3e2a29e645061c9ac7d",
-                "name": "哆啦A梦 - Yume",
-                "artist": "島谷ひとみ",
-                "album": "Yume日和",
-                "url": "static/动漫/哆啦A梦/哆啦A梦 - Yume.mp3",
-                "pic": "static/动漫/哆啦A梦/哆啦A梦 - Yume.jpg",
-                "lyric": "static/动漫/哆啦A梦/哆啦A梦 - Yume.lrc",
-                "source": "local",
-                "url_id": "270549f60f9cd3e2a29e645061c9ac7d",
-                "pic_id": "270549f60f9cd3e2a29e645061c9ac7d",
-                "lyric_id": "270549f60f9cd3e2a29e645061c9ac7d"
-            },
-            {
-                "id": "5d9a92b7a3c2b2b2ea44a05a6b054131",
-                "name": "哆啦A梦 - ボクノート",
-                "artist": "哆啦A梦",
-                "album": "哆啦A梦",
-                "url": "static/动漫/哆啦A梦/哆啦A梦 - ボクノート.mp3",
-                "pic": "static/动漫/哆啦A梦/哆啦A梦 - ボクノート.jpg",
-                "lyric": "static/动漫/哆啦A梦/哆啦A梦 - ボクノート.lrc",
-                "source": "local",
-                "url_id": "5d9a92b7a3c2b2b2ea44a05a6b054131",
-                "pic_id": "5d9a92b7a3c2b2b2ea44a05a6b054131",
-                "lyric_id": "5d9a92b7a3c2b2b2ea44a05a6b054131"
             },
             {
                 "id": "2bf864f249e2be7aeb2655f84ef733b3",
