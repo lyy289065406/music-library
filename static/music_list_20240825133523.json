@@ -649,11 +649,11 @@
                 "artist": "一公升眼泪",
                 "album": "",
                 "url": "static/流行/一公升眼泪 - Only Human.mp3",
-                "pic": "",
+                "pic": "static/流行/一公升眼泪 - Only Human.jpg",
                 "lyric": "",
                 "source": "local",
                 "url_id": "e91b7ab0dc1fabe11dbee6d036574d98",
-                "pic_id": "",
+                "pic_id": "e91b7ab0dc1fabe11dbee6d036574d98",
                 "lyric_id": ""
             },
             {
@@ -2488,6 +2488,19 @@
                 "url_id": "c9c32fea851d33e6ae6d1d954928664b",
                 "pic_id": "c9c32fea851d33e6ae6d1d954928664b",
                 "lyric_id": "c9c32fea851d33e6ae6d1d954928664b"
+            },
+            {
+                "id": "ffe09f9fe5477fa791170dae29e0624b",
+                "name": "浅影阿 - 声声慢 - 粤语",
+                "artist": "浅影阿",
+                "album": "",
+                "url": "static/翻唱/浅影阿/浅影阿 - 声声慢 - 粤语.mp3",
+                "pic": "",
+                "lyric": "static/翻唱/浅影阿/浅影阿 - 声声慢 - 粤语.lrc",
+                "source": "local",
+                "url_id": "ffe09f9fe5477fa791170dae29e0624b",
+                "pic_id": "",
+                "lyric_id": "ffe09f9fe5477fa791170dae29e0624b"
             },
             {
                 "id": "8ace2b0eb4d0321b79c35ff2100af9e1",
