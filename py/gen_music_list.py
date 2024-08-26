@@ -74,7 +74,7 @@ def main(args) :
                 continue
 
             if any(kw in file.lower() for kw in ignores) :
-                log.warn(f"跳过文件： {root}")
+                log.warn(f"跳过文件： {file}")
                 continue
 
             absolute_path = os.path.join(root, file)
