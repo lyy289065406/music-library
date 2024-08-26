@@ -46,19 +46,6 @@
                 "lyric_id": ""
             },
             {
-                "id": "a9fec920d79c75a81784fef39dd62407",
-                "name": "女孩冲冲冲 - 回家作业",
-                "artist": "女孩冲冲冲",
-                "album": "",
-                "url": "static/影视/女孩冲冲冲 - 回家作业.mp3",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "a9fec920d79c75a81784fef39dd62407",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
                 "id": "b63c63538172fceedd76e91edffcf917",
                 "name": "单依纯 - 一生一念 - 仙剑六祈今朝",
                 "artist": "单依纯",
@@ -293,19 +280,6 @@
                 "lyric_id": "04b6e863c8ed9fd0df7792a696ec6ab3"
             },
             {
-                "id": "cc2d8bc94f0fdcea3f0bfec5c6898253",
-                "name": "陈翔六点半 - 旧戏",
-                "artist": "陈翔六点半",
-                "album": "陈翔六点半",
-                "url": "static/影视/陈翔六点半 - 旧戏.mp3",
-                "pic": "static/影视/陈翔六点半 - 旧戏.jpg",
-                "lyric": "static/影视/陈翔六点半 - 旧戏.lrc",
-                "source": "local",
-                "url_id": "cc2d8bc94f0fdcea3f0bfec5c6898253",
-                "pic_id": "cc2d8bc94f0fdcea3f0bfec5c6898253",
-                "lyric_id": "cc2d8bc94f0fdcea3f0bfec5c6898253"
-            },
-            {
                 "id": "e6cb9f391f56c65c7ccd5572b52eeb99",
                 "name": "神雕侠侣 - 江湖笑",
                 "artist": "张纪中/周华健/胡军/黄晓明/小虫",
@@ -332,19 +306,6 @@
                 "lyric_id": "2d8132b57c34d540fb3334194adb8d9d"
             },
             {
-                "id": "6dbc3a7b9a64cc47fd0a15ebfebaa43f",
-                "name": "泰坦尼克号 - my heart will go on",
-                "artist": "James Horner",
-                "album": "",
-                "url": "static/影视/泰坦尼克号 - my heart will go on.mp3",
-                "pic": "static/影视/泰坦尼克号 - my heart will go on.jpg",
-                "lyric": "static/影视/泰坦尼克号 - my heart will go on.lrc",
-                "source": "local",
-                "url_id": "6dbc3a7b9a64cc47fd0a15ebfebaa43f",
-                "pic_id": "6dbc3a7b9a64cc47fd0a15ebfebaa43f",
-                "lyric_id": "6dbc3a7b9a64cc47fd0a15ebfebaa43f"
-            },
-            {
                 "id": "8db37e6bb9c67bd5c55aef0ed7d75f4a",
                 "name": "爱情公寓 - 陈韵若 - 爱的回归线",
                 "artist": "陈韵若",
@@ -356,19 +317,6 @@
                 "url_id": "8db37e6bb9c67bd5c55aef0ed7d75f4a",
                 "pic_id": "8db37e6bb9c67bd5c55aef0ed7d75f4a",
                 "lyric_id": "8db37e6bb9c67bd5c55aef0ed7d75f4a"
-            },
-            {
-                "id": "20f6abccc39433b7150b3db4688c2b33",
-                "name": "我的姐姐 - 张子枫 - 举镜子的女孩",
-                "artist": "张子枫",
-                "album": "我的姐姐",
-                "url": "static/影视/我的姐姐 - 张子枫 - 举镜子的女孩.mp3",
-                "pic": "static/影视/我的姐姐 - 张子枫 - 举镜子的女孩.jpg",
-                "lyric": "static/影视/我的姐姐 - 张子枫 - 举镜子的女孩.lrc",
-                "source": "local",
-                "url_id": "20f6abccc39433b7150b3db4688c2b33",
-                "pic_id": "20f6abccc39433b7150b3db4688c2b33",
-                "lyric_id": "20f6abccc39433b7150b3db4688c2b33"
             },
             {
                 "id": "f80e1fa5c0894f23c763e738ea485ede",
@@ -408,32 +356,6 @@
                 "url_id": "198779437492763c3c3b52924beca49b",
                 "pic_id": "198779437492763c3c3b52924beca49b",
                 "lyric_id": "198779437492763c3c3b52924beca49b"
-            },
-            {
-                "id": "3be693c57da215d87b2a58ddd6d3c67d",
-                "name": "那些年我们一起追的女孩 电影主题曲官方MV",
-                "artist": "胡夏",
-                "album": "",
-                "url": "static/影视/那些年，我们一起追的女孩/那些年我们一起追的女孩 电影主题曲官方MV.mp3",
-                "pic": "static/影视/那些年，我们一起追的女孩/那些年我们一起追的女孩 电影主题曲官方MV.jpg",
-                "lyric": "",
-                "source": "local",
-                "url_id": "3be693c57da215d87b2a58ddd6d3c67d",
-                "pic_id": "3be693c57da215d87b2a58ddd6d3c67d",
-                "lyric_id": ""
-            },
-            {
-                "id": "1096ef4e7f0042cd2644ee655580cfb0",
-                "name": "那些年 - 钢琴伴奏",
-                "artist": "那些年",
-                "album": "",
-                "url": "static/影视/那些年，我们一起追的女孩/那些年 - 钢琴伴奏.mp3",
-                "pic": "static/影视/那些年，我们一起追的女孩/那些年 - 钢琴伴奏.jpg",
-                "lyric": "",
-                "source": "local",
-                "url_id": "1096ef4e7f0042cd2644ee655580cfb0",
-                "pic_id": "1096ef4e7f0042cd2644ee655580cfb0",
-                "lyric_id": ""
             },
             {
                 "id": "34a1245275be9d4c7d739645950633e2",
@@ -1203,19 +1125,6 @@
                 "lyric_id": "4d9730625f36d0287f84a92c6f15b054"
             },
             {
-                "id": "298173129c5f85641573198f9afbec0c",
-                "name": "一念永恒 - 无念",
-                "artist": "一念永恒",
-                "album": "",
-                "url": "static/动漫/一念永恒 - 无念.mp3",
-                "pic": "static/动漫/一念永恒 - 无念.jpg",
-                "lyric": "static/动漫/一念永恒 - 无念.lrc",
-                "source": "local",
-                "url_id": "298173129c5f85641573198f9afbec0c",
-                "pic_id": "298173129c5f85641573198f9afbec0c",
-                "lyric_id": "298173129c5f85641573198f9afbec0c"
-            },
-            {
                 "id": "25d92e6d390bb2a0f31d3f9225434a11",
                 "name": "想死君 - unravel - 東京喰種",
                 "artist": "想死君>",
@@ -1253,32 +1162,6 @@
                 "url_id": "385ed0600ffbf181c9c4a8c28f76aa63",
                 "pic_id": "385ed0600ffbf181c9c4a8c28f76aa63",
                 "lyric_id": "385ed0600ffbf181c9c4a8c28f76aa63"
-            },
-            {
-                "id": "e41520a56c16cc8c2480f39073400a2d",
-                "name": "段奧娟 - 凡人",
-                "artist": "段奧娟",
-                "album": "",
-                "url": "static/动漫/凡人修仙传/段奧娟 - 凡人.mp3",
-                "pic": "static/动漫/凡人修仙传/段奧娟 - 凡人.jpg",
-                "lyric": "static/动漫/凡人修仙传/段奧娟 - 凡人.lrc",
-                "source": "local",
-                "url_id": "e41520a56c16cc8c2480f39073400a2d",
-                "pic_id": "e41520a56c16cc8c2480f39073400a2d",
-                "lyric_id": "e41520a56c16cc8c2480f39073400a2d"
-            },
-            {
-                "id": "4d0f04cb57eecb7d27ea0d2a054c873a",
-                "name": "王錚亮 - 不凡",
-                "artist": "王錚亮",
-                "album": "",
-                "url": "static/动漫/凡人修仙传/王錚亮 - 不凡.mp3",
-                "pic": "static/动漫/凡人修仙传/王錚亮 - 不凡.jpg",
-                "lyric": "static/动漫/凡人修仙传/王錚亮 - 不凡.lrc",
-                "source": "local",
-                "url_id": "4d0f04cb57eecb7d27ea0d2a054c873a",
-                "pic_id": "4d0f04cb57eecb7d27ea0d2a054c873a",
-                "lyric_id": "4d0f04cb57eecb7d27ea0d2a054c873a"
             },
             {
                 "id": "28864e2907efca002e0a9c7755a7a599",
@@ -1476,45 +1359,6 @@
                 "lyric_id": "05f5866da93520509449596c1b137c14"
             },
             {
-                "id": "f514f42d49c5d54a1f9d39ae28a10a03",
-                "name": "春奈るな - Overfly",
-                "artist": "春奈るな",
-                "album": "",
-                "url": "static/动漫/刀剑神域/春奈るな - Overfly.mp3",
-                "pic": "static/动漫/刀剑神域/春奈るな - Overfly.jpg",
-                "lyric": "static/动漫/刀剑神域/春奈るな - Overfly.lrc",
-                "source": "local",
-                "url_id": "f514f42d49c5d54a1f9d39ae28a10a03",
-                "pic_id": "f514f42d49c5d54a1f9d39ae28a10a03",
-                "lyric_id": "f514f42d49c5d54a1f9d39ae28a10a03"
-            },
-            {
-                "id": "05fe79f589606a857e9c46f3d2bec4e2",
-                "name": "蓝井エイル - INNOCENCE",
-                "artist": "蓝井エイル",
-                "album": "",
-                "url": "static/动漫/刀剑神域/蓝井エイル - INNOCENCE.mp3",
-                "pic": "static/动漫/刀剑神域/蓝井エイル - INNOCENCE.jpg",
-                "lyric": "static/动漫/刀剑神域/蓝井エイル - INNOCENCE.lrc",
-                "source": "local",
-                "url_id": "05fe79f589606a857e9c46f3d2bec4e2",
-                "pic_id": "05fe79f589606a857e9c46f3d2bec4e2",
-                "lyric_id": "05fe79f589606a857e9c46f3d2bec4e2"
-            },
-            {
-                "id": "55d2a586159c847eef98ff69527eb3dc",
-                "name": "LiSA - unlasting",
-                "artist": "",
-                "album": "",
-                "url": "static/动漫/刀剑神域/LiSA - unlasting.mp3",
-                "pic": "",
-                "lyric": "",
-                "source": "local",
-                "url_id": "55d2a586159c847eef98ff69527eb3dc",
-                "pic_id": "",
-                "lyric_id": ""
-            },
-            {
                 "id": "2bf864f249e2be7aeb2655f84ef733b3",
                 "name": "妖精的尾巴 - 插曲",
                 "artist": "",
@@ -1630,32 +1474,6 @@
                 "url_id": "97c13b5b0e6eb5be65439ad5fefd7e54",
                 "pic_id": "97c13b5b0e6eb5be65439ad5fefd7e54",
                 "lyric_id": "97c13b5b0e6eb5be65439ad5fefd7e54"
-            },
-            {
-                "id": "6261535e76fd253d08c7e2a6f8c00300",
-                "name": "MYTH & ROID - STYX HELIX",
-                "artist": "MYTH & ROID",
-                "album": "STYX HELIX",
-                "url": "static/动漫/从零开始的异世界生活/MYTH & ROID - STYX HELIX.mp3",
-                "pic": "",
-                "lyric": "static/动漫/从零开始的异世界生活/MYTH & ROID - STYX HELIX.lrc",
-                "source": "local",
-                "url_id": "6261535e76fd253d08c7e2a6f8c00300",
-                "pic_id": "",
-                "lyric_id": "6261535e76fd253d08c7e2a6f8c00300"
-            },
-            {
-                "id": "d91bc5cd1251cdcef58cb6436036bcad",
-                "name": "MYTH & ROID - STYX HELIX （钢琴慢版）",
-                "artist": "悯音",
-                "album": "Re:ゼロから始まる異世界の生活",
-                "url": "static/动漫/从零开始的异世界生活/MYTH & ROID - STYX HELIX （钢琴慢版）.mp3",
-                "pic": "",
-                "lyric": "static/动漫/从零开始的异世界生活/MYTH & ROID - STYX HELIX （钢琴慢版）.lrc",
-                "source": "local",
-                "url_id": "d91bc5cd1251cdcef58cb6436036bcad",
-                "pic_id": "",
-                "lyric_id": "d91bc5cd1251cdcef58cb6436036bcad"
             },
             {
                 "id": "25f297d01900294fd7b2fe4479e2cefa",
@@ -2046,19 +1864,6 @@
                 "url_id": "4f6a385e7abe174cbcdc0d75f8a07e75",
                 "pic_id": "4f6a385e7abe174cbcdc0d75f8a07e75",
                 "lyric_id": "4f6a385e7abe174cbcdc0d75f8a07e75"
-            },
-            {
-                "id": "e0d6c96a230274649b4c9ca841cecc78",
-                "name": "那些年（粤语版）",
-                "artist": "胡夏",
-                "album": "",
-                "url": "static/翻唱/那些年（粤语版）.mp3",
-                "pic": "",
-                "lyric": "static/翻唱/那些年（粤语版）.lrc",
-                "source": "local",
-                "url_id": "e0d6c96a230274649b4c9ca841cecc78",
-                "pic_id": "",
-                "lyric_id": "e0d6c96a230274649b4c9ca841cecc78"
             },
             {
                 "id": "0970c18b9a5ef42e6d739d910074572a",
