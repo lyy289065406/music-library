@@ -449,6 +449,19 @@
                 "lyric_id": "3d3b3773f3b22bb0d1141b0592eddd6f"
             },
             {
+                "id": "c061bb76f0ca963beadeda1e36920c8b",
+                "name": "杨子熙 - 化凡",
+                "artist": "杨子熙",
+                "album": "仙逆",
+                "url": "static/动漫/杨子熙 - 化凡.mp3",
+                "pic": "",
+                "lyric": "static/动漫/杨子熙 - 化凡.lrc",
+                "source": "local",
+                "url_id": "c061bb76f0ca963beadeda1e36920c8b",
+                "pic_id": "",
+                "lyric_id": "c061bb76f0ca963beadeda1e36920c8b"
+            },
+            {
                 "id": "b185a41b33cbb36b84a50c2601bd607d",
                 "name": "TVB儿歌金曲串烧",
                 "artist": "",
@@ -1305,6 +1318,19 @@
                 "url_id": "b558a7f53701743a6eade2eda8920aaa",
                 "pic_id": "b558a7f53701743a6eade2eda8920aaa",
                 "lyric_id": "b558a7f53701743a6eade2eda8920aaa"
+            },
+            {
+                "id": "c74905de713c920f0cd539cd190e8387",
+                "name": "张敬轩 - 只是太爱你",
+                "artist": "张敬轩",
+                "album": "只是太爱你",
+                "url": "static/流行/张敬轩 - 只是太爱你.mp3",
+                "pic": "static/流行/张敬轩 - 只是太爱你.jpg",
+                "lyric": "static/流行/张敬轩 - 只是太爱你.lrc",
+                "source": "local",
+                "url_id": "c74905de713c920f0cd539cd190e8387",
+                "pic_id": "c74905de713c920f0cd539cd190e8387",
+                "lyric_id": "c74905de713c920f0cd539cd190e8387"
             },
             {
                 "id": "0cc9b9156c5bcf18714d3ed09f61a5a2",
