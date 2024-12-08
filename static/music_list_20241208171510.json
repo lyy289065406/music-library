@@ -917,6 +917,19 @@
                 "lyric_id": "6f6beaf868bcf0b169049babd9d0ef95"
             },
             {
+                "id": "abfb50f0a2c7e30cf20cd9a779ed9200",
+                "name": "单依纯 - 永不失联的爱 - 好声音现场版",
+                "artist": "单依纯",
+                "album": "中国好声音2020",
+                "url": "static/综艺/单依纯 - 永不失联的爱 - 好声音现场版.mp3",
+                "pic": "static/综艺/单依纯 - 永不失联的爱 - 好声音现场版.jpg",
+                "lyric": "static/综艺/单依纯 - 永不失联的爱 - 好声音现场版.lrc",
+                "source": "local",
+                "url_id": "abfb50f0a2c7e30cf20cd9a779ed9200",
+                "pic_id": "abfb50f0a2c7e30cf20cd9a779ed9200",
+                "lyric_id": "abfb50f0a2c7e30cf20cd9a779ed9200"
+            },
+            {
                 "id": "317ff3d0f326dcfbbf42963a1a38967c",
                 "name": "任贤齐 - 浪花一朵朵",
                 "artist": "任贤齐",
@@ -1214,6 +1227,19 @@
                 "url_id": "e91b7ab0dc1fabe11dbee6d036574d98",
                 "pic_id": "e91b7ab0dc1fabe11dbee6d036574d98",
                 "lyric_id": ""
+            },
+            {
+                "id": "52aceac176f0c0b0c6d09a8e0c5619ac",
+                "name": "单依纯 - 永不失联的爱",
+                "artist": "单依纯",
+                "album": "",
+                "url": "static/流行/单依纯 - 永不失联的爱.mp3",
+                "pic": "",
+                "lyric": "static/流行/单依纯 - 永不失联的爱.lrc",
+                "source": "local",
+                "url_id": "52aceac176f0c0b0c6d09a8e0c5619ac",
+                "pic_id": "",
+                "lyric_id": "52aceac176f0c0b0c6d09a8e0c5619ac"
             },
             {
                 "id": "f34076492679b958364d34b09b25f9f4",
